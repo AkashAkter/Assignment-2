@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section */
+.header-section {
+    background-color: black;
+    display: flex;
+}
+
+.heading {
+    color: white;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.heading h1 {
+    font-size: 50px;
+
+}
+
+.para {
+
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.banner {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.banner img {
+
+    width: 50%;
+}
