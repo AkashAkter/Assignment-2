@@ -1,141 +1,128 @@
 body {
-
-    font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Header Section */
+main {
+    margin: 50px 90px;
+}
+
+a {
+    font-weight: 700;
+}
 
 
-.header {
-    display: flex;
+
+/* Heading Styles */
+
+.top-section {
     background-color: black;
-    color: white;
-    border-radius: 30px;
-    align-items: center;
-    margin: 100px;
-}
-
-.head {
-    width: 531px;
-    height: 424px;
-    margin-left: 100px;
-
-
-}
-
-.head h1 {
-    font-size: 45px;
-    text-align: left;
-}
-
-.head p {
-    font-size: 15px;
-    text-align: left;
-    width: 400px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: 300;
-
-}
-
-.head a {
-    color: #FFFFFF;
-    font-size: 15px;
-    padding: 10px 15px;
-    background-color: red;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.head-img {
-    margin-bottom: 0;
-}
-
-.head-img img {
-    height: 450px;
-    width: 450px;
-}
-
-
-/* Main Section */
-
-.container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: ;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
 }
 
-.side-button {
+.f-div {
+    color: white;
+    margin: 50px 0 50px 50px;
+}
+
+.f-div h1 {
+    font-size: 60px;
+
+}
+
+.f-div p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.f-div a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}
+
+.s-div img {
+    width: fit-content;
+    margin-top: 50px;
+    width: 70%;
+    margin-bottom: -7px;
+}
+
+
+
+/* Middle Section Styles */
+
+.mid-section {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.nav-bar nav {
     background-color: black;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    border-radius: 10px;
-    width: 312px;
-    height: 312px;
-    justify-content: center;
+    padding: 25px;
+    text-align: center;
 }
 
-.side-button a {
+.nav-bar nav a {
     background-color: white;
     margin: 10px;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
-    padding: 10px 15px;
-    text-align: center;
-
-}
-
-.side-button .exceptional {
-    color: #FFFFFF;
-    background-color: red;
-}
-
-.articles {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-.blogs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
-    border: 1px solid red;
-    width: 312px;
-    height: 362px;
-    border-radius: 15px;
-
-}
-
-.blog-info {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.blog-details {
-    padding: 30px;
-}
-
-.blog-details a {
-    color: black;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 2px 10px;
-    width: 100px;
-    height: 32px;
+    padding: 15px;
     border-radius: 5px;
 }
 
-.blog-details p {
-    font-size: 17px;
+.nav-bar nav .exceptional {
+    background-color: red;
+    color: white;
 }
 
-/* Footer Styles */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.news {
+    border: 1px solid rgb(210, 210, 210);
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+}
+
+.blog-image img {
+    width: 250px;
+    height: 150px;
+}
+
+.blog-details {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blog-details a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: black;
+}
+
+.blog-details div i {
+    margin-right: 25px;
+}
+
+
+/* Footer Section Styles */
 .footer {
     background-color: black;
     margin-top: 100px;
